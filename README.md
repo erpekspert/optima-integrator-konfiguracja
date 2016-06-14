@@ -27,7 +27,15 @@ Apache instalujemy w katalogu c:\php\httpd-2.4.16-VC9-x86, a do jego podkatalogu
 
 Oczywiœcie wszystkie powy¿sze nazwy katalogów mo¿na dowolnie pozmieniaæ, trzeba tylko pamiêtaæ, aby nowe nazwy wprowadziæ do plików php.ini i httpd.conf, oraz do zmiennej œrodowiskowej PATH.
 
-Rozwi¹zanie umieszczamy w katalogu c:\php\aplikacja, po czym restartujemy us³ugê Apache (albo ca³y system).
+Rozwi¹zanie (ca³¹ zawartoœæ repozytorium optima-integrator-soap) umieszczamy w katalogu c:\php\aplikacja, po czym restartujemy us³ugê Apache (albo ca³y system).
+
+Jeœli jeszcze nie posiadamy dostêpu do wspomnianego repozytorium, a chcemy tylko dokoñczyæ konfiguracjê, tworzymy w katalogu c:\php\aplikacja plik o nazwie phpinfo.php, a w nim nastêpuj¹c¹ zawartoœæ:
+
+```
+<?php
+
+phpinfo();
+```
 
 Nastêpnie w przegl¹darce (na serwerze) otwieramy adres:
 
